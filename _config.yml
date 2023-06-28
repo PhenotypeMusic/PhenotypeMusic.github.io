@@ -1,7 +1,7 @@
 logo: # add logo name
 title: Phenotype Music
 description: > # this means to ignore newlines until "baseurl:"
-  Phenotype, the next generation of hardware sequencersgst
+  Phenotype, the next generation of hardware sequencing.
   .
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -9,8 +9,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
 video: mountains.mp4 # add banner video. Add your video file to the folder video
-banner-title: # add banner title
-banner-desc: # add banner description
+banner-title: Phenotype # add banner title
+banner-desc: The next generation of hardware sequencing. # add banner description
 
 # Author settings
 author-pic: face.jpg # your photo
