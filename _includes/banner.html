@@ -1,11 +1,11 @@
 
-<section id="banner">
+<section id="banner" data-vide-bg="{{site.baseurl}}/assets/video/{% if site.video %}{{ site.video }}{% endif %}" data-vide-options="posterType: jpg, loop: true, muted: false, position: 50% 50%">
   <div class="wrapper">
-    <div style="text-align: center; margin-top: 50px">
-      <img src="assets/img/phenotype.jpg" width="640">
-    </div>
-
     <div class="content">
+      <div style="text-align: center; margin-top: 50px; display:  block;">
+        <img src="assets/img/phenotype.jpg" width="640">
+      </div>
+
       <h1 class="title">{% if site.banner-title %}{{ site.banner-title }}{% else %}Enjoy Freedom{% endif %}</h1>
       <h2 class="sub_title">{% if site.banner-desc %}{{ site.banner-desc }}{% else %}"A journey of a thousand miles begins with a single step". — Lao Tzu{% endif %}</h2>
     </div>
